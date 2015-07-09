@@ -1,0 +1,32 @@
+{
+  "name": "redux-example",
+  "version": "0.0.0",
+  "description": "WIP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chentsulin/redux-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chentsulin/redux-example/issues"
+  },
+  "homepage": "https://github.com/chentsulin/redux-example#readme",
+  "devDependencies": {
+    "babel-core": "^5.6.16",
+    "babel-loader": "^5.3.1",
+    "node-libs-browser": "^0.5.2",
+    "react-hot-loader": "^1.2.8",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "redux": "^0.12.0"
+  }
+}

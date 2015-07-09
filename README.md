@@ -1,2 +1,3 @@
 # redux-example
-WIP
+
+> WIP
