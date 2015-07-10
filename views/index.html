@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Redux Counter Example App</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div id="root">{{ appString | safe }}</div>
+
+		<script>window.STATE_FROM_SERVER = {{ initialState | safe }}</script>
+		{% if env.NODE_ENV == 'development' %}
+			<script src="http://localhost:3000/static/bundle.js" defer></script>
+		{% else %}
+			<script src="/static/bundle.js" defer></script>
+		{% endif %}
+	</body>
+</html>
